@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="test.js"></script>
+        <title>test</title>
+</head>
+<body>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+        .container{
+            max-width: 1440px;
+            width: 100%;
+            height: 811px;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+            align-items: center;
+        }
+        .imageContainer{
+            width: 520px;
+            height: 520px;
+            border-radius: 50%;
+            background-color: #FFEAD5;
+            overflow: hidden;
+        }
+        .list-wrapper{
+            max-width: 607px;
+            width: 100%;
+            height: 150px;
+            display: flex;
+            justify-content: space-between;
+        }
+        .list-cover{
+            max-width: 607px;
+            width: 100%;
+            height: 150px;
+        }
+        .iconCover{
+            width: 50px;
+            height: 150px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .details{
+            max-width: 500px;
+            width: 100%;
+            height: 100%;
+            color: #98A2B3;
+        }
+        .active .details{
+            color: #1D2939;
+        }
+    </style>
+
+    <div class="container">
+        <div class="imageContainer"><img style="width: 100%; height: 100%;" src="Frame 628204.png" alt="" id="image"></div>
+
+        <div class="list-cover" id="cover">
+           
+        </div>
+    </div>
+
+</body>
+</html>
