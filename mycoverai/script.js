@@ -22,8 +22,8 @@ function jitem1(){
     document.getElementById("image1").src = "Jimg.png"
     heading.innerHTML = "Efficient Policy Manangement"
     message.innerHTML = "Your customers have full control over policies purchased from you. The app is made to take the worry off you in managing all insurance activities."
-    y.style.marginLeft = "5%"
-    y.style.transition = "1s"
+    // y.style.marginLeft = "5%"
+    // y.style.transition = "1s"
 }
 function jitem2(){
     document.getElementById("item1").className = "cont2"
@@ -44,8 +44,8 @@ function jitem2(){
     document.getElementById("image1").src = "Jimg2.png"
     heading.innerHTML = "Simple Wallet System"
     message.innerHTML = "A wallet system for your customers to renew policies and receive claim payouts instantly."
-    x.style.marginLeft = "5%"
-    x.style.transition = "1s"
+    // x.style.marginLeft = "5%"
+    // x.style.transition = "1s"
 }
 function jitem3(){
     document.getElementById("item1").className = "cont2"
